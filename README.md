@@ -1,5 +1,7 @@
 # toutiao
 
+# 登陆时密码为246810  账号是个电话号码的形式就可以
+
 ## Project setup
 ```
 npm install
@@ -22,3 +24,5 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+

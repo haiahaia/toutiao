@@ -48,6 +48,9 @@ Vue.directive('fofo', {
 router.beforeEach((to, from, next) => {
   const x = localStorage.getItem('geek-itheima')
   if (to.name === 'login') {
+    if (from.name === null) {
+      next()
+    }
     if (x) {
       next(false)
     } else {
